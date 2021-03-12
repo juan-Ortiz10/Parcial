@@ -62,6 +62,7 @@ namespace Parcial
             this.btnMod1.TabIndex = 1;
             this.btnMod1.Text = "Mayor de dos números";
             this.btnMod1.UseVisualStyleBackColor = false;
+            this.btnMod1.Click += new System.EventHandler(this.btnMod1_Click);
             // 
             // button1
             // 
@@ -86,6 +87,7 @@ namespace Parcial
             this.button2.TabIndex = 3;
             this.button2.Text = "Cuenta letras";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -110,6 +112,7 @@ namespace Parcial
             this.button4.TabIndex = 5;
             this.button4.Text = "Pangramas";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
