@@ -16,5 +16,13 @@ namespace Parcial
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            area_Cuadrado go = new area_Cuadrado();
+            this.Hide();
+            go.ShowDialog();
+            this.Show();
+        }
     }
 }
