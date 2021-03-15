@@ -24,5 +24,13 @@ namespace Parcial
             go.ShowDialog();
             this.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            invertir_palabra go = new invertir_palabra();
+            this.Hide();
+            go.ShowDialog();
+            this.Show();
+        }
     }
 }
