@@ -17,6 +17,30 @@ namespace Parcial
             InitializeComponent();
         }
 
+        private void btnMod1_Click(object sender, EventArgs e)
+        {
+            MDN mdn = new MDN();
+            this.Hide();
+            mdn.ShowDialog();
+            this.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            CL cl = new CL();
+            this.Hide();
+            cl.ShowDialog();
+            this.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            PAN pan = new PAN();
+            this.Hide();
+            pan.ShowDialog();
+            this.Show();
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             area_Cuadrado go = new area_Cuadrado();
