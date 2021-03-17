@@ -32,5 +32,13 @@ namespace Parcial
             go.ShowDialog();
             this.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            suma_dificil go = new suma_dificil();
+            this.Hide();
+            go.ShowDialog();
+            this.Show();
+        }
     }
 }
