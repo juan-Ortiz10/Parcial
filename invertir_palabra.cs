@@ -30,5 +30,10 @@ namespace Parcial
             MessageBox.Show("La palabra invertida es: " + pinvert, "Palabra invertida");
             textBox1.Clear();
         }
+
+        private void invertir_palabra_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
